@@ -1,4 +1,4 @@
-antennahouse-cookbook
+dotenv-cookbook
 =====================
 
 Publishing to Opscode Community
@@ -13,3 +13,7 @@ knife cookbook metadata .
 ```
 
 Then, making sure that the repo folder is called `dotenv`, zip the folder and upload as `.tar` file to Opscode Community.
+
+```
+tar -czf dotenv.tar.gz dotenv
+```
